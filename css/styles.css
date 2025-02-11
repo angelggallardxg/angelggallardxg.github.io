@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url(./fonts/Rubik-Regular.ttf) format('truetype');
+}
+
+a {
+  border-bottom: 1px dotted #E8E8E8;
+  color: #E8E8E8;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a:visited {
+  border-bottom: 1px dotted #E8E8E8;
+}
+
+a:hover {
+  border-bottom: 1px solid #E8E8E8;
+}
+
+a:visited {
+  border-bottom: 1px dotted #E8E8E8;
+}
+
+body {
+  background-color: #1A1A1A;
+  color: #E8E8E8;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 60px auto;
+  width: 580px;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: normal;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 5px;
+  margin-top: 40px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.h3-anchor {
+  font-size: 20px;
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.header-a {
+  font-size: 15px;
+}
+
+li {
+  display: inline-block;
+  margin: 0 15px 0 0;
+  padding: 0;
+}
+
+p {
+  margin: 0 0 2ex 0;
+}
+
+ul {
+  margin: 0 0 2ex 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 580px) {
+  body {
+    margin: 10px auto;
+    padding: 0 20px 0 20px;
+    width: auto;
+    word-wrap: break-word;
+  }
+
+  img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+}
+
+.cover-left {
+  float: left;
+  padding-right: 2%;
+  width: 49%;
+}
+
+.cover-right {
+  float: left;
+  width: 49%;
+}
